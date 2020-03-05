@@ -29,8 +29,8 @@ class Map extends Component {
     constructor(props){
         super(props);
         this.state = {
-            bicycles: [],
-            nearestBicycles: [],
+            scooters: [],
+            nearScooters: [],
             selectedPointGeoJSON: {
                 type: 'FeatureCollection',
                 features: []
@@ -41,8 +41,8 @@ class Map extends Component {
     
     componentWillReceiveProps(nextProps){
         // update state when there is new data
-        this.setState({bicycles: nextProps.scootersData,
-                        nearestBicycles: nextProps.nearestScootersData,
+        this.setState({scooters: nextProps.scootersData,
+            nearScooters: nextProps.nearScootersData,
                         selectedPointGeoJSON: nextProps.map.selectedPointGeoJSON})
     }
 
@@ -50,7 +50,7 @@ class Map extends Component {
         const {hoveredObject, pointerX, pointerY} = this.state || {};
         return hoveredObject && (
             <div style={{position: 'absolute', zIndex: 1, pointerEvents: 'none', left: pointerX, top: pointerY}}>
-                <p style={{margin:0,padding:0}}><b>Bicycle {hoveredObject.id} </b></p>
+                <p style={{margin:0,padding:0}}><b>Scooter {hoveredObject.id} </b></p>
             </div>
         )
     }
@@ -75,8 +75,8 @@ class Map extends Component {
     render(){
         const layers = [
             new ScatterplotLayer({
-                id: 'bicycle-scatter-layer',
-                data: this.state.bicycles,
+                id: 'scooter-scatter-layer',
+                data: this.state.scooters,
                 pickable: true,
                 opacity: 1,
                 radiusMinPixels: 5,
@@ -91,8 +91,8 @@ class Map extends Component {
                   })
             }),
             new ScatterplotLayer({
-                id: 'near-bicycle-scatter-layer',
-                data: this.state.nearestBicycles,
+                id: 'near-scooter-scatter-layer',
+                data: this.state.nearScooters,
                 pickable: true,
                 opacity: 0.8,
                 radiusMinPixels: 5,

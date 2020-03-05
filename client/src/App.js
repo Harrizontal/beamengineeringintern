@@ -116,7 +116,7 @@ function App() {
         </Table>
       </div>
       <div style={{width: "50vw",height: "auto",margin: "10px"}}>
-        <Map scootersData={scootersData} nearestScootersData ={nearScootersData}/>
+        <Map scootersData={scootersData} nearScootersData ={nearScootersData}/>
       </div>
     </Wrapper>
   );
