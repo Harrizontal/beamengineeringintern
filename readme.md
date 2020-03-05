@@ -3,21 +3,21 @@
 ![Preview](https://i.gyazo.com/3edeaead3bc2d3c6c63505e776c34691.gif)
 ## How it works?
 
-Enter the no. of scooter and the metres from the defined location.
-To set the location, you can manually enter lon and lat, or tap on the map.
-
-Purple - Scooters
-Red - nearest scooters based on the defined parameters
+- Enter the no. of scooter and the metres from the defined location.
+- To set the location, you can manually enter lon and lat, or tap on the map.
+- Click on the button to get the results
+- Purple dots stands for Scooters
+- Red dots stands for nearest scooters based on the defined parameters
 
 ## Instructions
 
-Execute the command below for /client and /server
+Execute the commands below for /client and /server
 ```
 npm install
 npm start
 ```
 
-Best is to start the server first, and then the client side, and access http://localhost:3000/
+Best is to start the server first, and then the client side, and access http://localhost:3000/.
 Take note that the server is running at 8000.
 
 ## Technology used
