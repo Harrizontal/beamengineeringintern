@@ -1,6 +1,13 @@
 ## Preview
 
 ![Preview](https://i.gyazo.com/3edeaead3bc2d3c6c63505e776c34691.gif)
+## How it works?
+
+Enter the no. of scooter and the metres from the defined location.
+To set the location, you can manually enter lon and lat, or tap on the map.
+
+Purple - Scooters
+Red - nearest scooters based on the defined parameters
 
 ## Instructions
 
