@@ -23,5 +23,9 @@ Back end
 Data Storage
 - CSV
 
+## Data format
+Data stored in a csv. (See data.csv in server folder).
+Data format is id, lon, lat.
+Ensure that the id is unique.
 
 Thank you :)
