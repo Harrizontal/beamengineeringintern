@@ -6,11 +6,8 @@ npm install
 npm start
 ```
 
-Best is to start the server first, and then the client side, and access http://http://localhost:3000/
-
-Access http://http://localhost:3000/ for client
-http://localhost:8000 for server
-
+Best is to start the server first, and then the client side, and access http://localhost:3000/
+Take note that the server is running at 8000.
 
 ## Technology used
 Front end
@@ -25,3 +22,6 @@ Back end
 
 Data Storage
 - CSV
+
+
+Thank you :)
