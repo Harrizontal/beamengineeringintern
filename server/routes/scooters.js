@@ -30,7 +30,6 @@ router.get('/', async(req, res, next) => {
 
 router.get('/proximity', function(req, res, next) {
     // Note - req.query gives me all the parameters (scooters, lon,lat and metres)
-
     // coordinate - 1st long, 2nd lat
     let selectedPoint = turf.point([parseFloat(req.query.lon),parseFloat(req.query.lat)])
 

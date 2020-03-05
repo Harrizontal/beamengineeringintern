@@ -19,8 +19,8 @@ const Wrapper = styled.div`
 `
 
 function App() {
-  const [scooters,setScooters] = useState(2)
-  const [metres,setMetres] = useState(4000)
+  const [scooters,setScooters] = useState(5)
+  const [metres,setMetres] = useState(300)
   const inputLon = useRef(null);
   const inputLat = useRef(null);
 

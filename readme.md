@@ -1,3 +1,7 @@
+## Preview
+
+![Preview](https://i.gyazo.com/3edeaead3bc2d3c6c63505e776c34691.gif)
+
 ## Instructions
 
 Execute the command below for /client and /server
