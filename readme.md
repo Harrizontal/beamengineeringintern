@@ -1,5 +1,7 @@
-## Preview
+## Update
+Rejected due to not optimizing search and not clean code.
 
+## Preview
 ![Preview](https://i.gyazo.com/3edeaead3bc2d3c6c63505e776c34691.gif)
 ## How it works?
 
